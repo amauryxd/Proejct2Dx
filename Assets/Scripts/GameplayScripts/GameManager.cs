@@ -7,11 +7,13 @@ public class GameManager : MonoBehaviour
 {
     public float LevelSpeed;
     public static bool playerLive;
+    public int contEvitar;
     // Start is called before the first frame update
     void Start()
     {
         LevelMov.movSpeed = LevelSpeed;
         playerLive = true;
+        contEvitar = 0;
     }
 
     // Update is called once per frame
@@ -35,11 +37,11 @@ public class GameManager : MonoBehaviour
     }
     public void evitarE()
     {
-        int cont=0;
+        
 
-        if(cont== 0)
+        if(contEvitar== 0)
         {
-            cont= 1;
+            contEvitar= 1;
             StartCoroutine(reinicio(SceneManager.GetActiveScene().buildIndex));
         }
     }
@@ -47,5 +49,22 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene(sceneCount);
+    }
+    public void PauseOnDeath()
+    {
+
+        if (!playerLive)
+        {
+            StopAllCoroutines();
+
+        }
+        
+    }
+    public void ContinueOnDeath()
+    {
+        if (!playerLive)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 }
