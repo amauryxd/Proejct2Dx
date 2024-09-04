@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AudioDetect : MonoBehaviour
 {
-    public AudioSource audioSource;
+    public static AudioSource audioSource;
     public static float[] samples = new float[512];
     public static float[] freqBand = new float[8];
     public static float[] bandbuffer = new float[8];
