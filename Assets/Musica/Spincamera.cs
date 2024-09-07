@@ -5,8 +5,7 @@ using Cinemachine;
 
 public class Spincamera : MonoBehaviour
 {
-    public CinemachineVirtualCamera camaraxd;
-    public float rotatespeed;
+    public Animator animationcam;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,13 +15,13 @@ public class Spincamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void movingdutch(){
-        camaraxd.m_Lens.Dutch = Mathf.Lerp(0,180,Time.deltaTime*rotatespeed);
+        animationcam.SetTrigger("camrotate");
     }
     public void regresardutch(){
-        camaraxd.m_Lens.Dutch = Mathf.Lerp(180,0,Time.deltaTime*rotatespeed);
+        animationcam.SetTrigger("descamrotate");
     }
 }
