@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
-public class clickDEBUG : MonoBehaviour
+public class secondTypePlayer : MonoBehaviour
 {
-
     public Rigidbody2D plyrb;
     public float upInte;
     public float gravSca;
-
     void Start()
     {
         plyrb = GetComponent<Rigidbody2D>();
@@ -16,19 +15,18 @@ public class clickDEBUG : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         plyrb.gravityScale = gravSca;
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
 
-            if(touch.phase == TouchPhase.Stationary)
+            if(touch.phase == TouchPhase.Began)
             {
-                plyrb.AddForce(new Vector2(0, upInte));
+                plyrb.velocity = Vector3.zero;
+                plyrb.AddForce(new Vector2(0, upInte),ForceMode2D.Impulse);
             }
         }
     }
-
-
 }
