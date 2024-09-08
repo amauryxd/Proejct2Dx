@@ -8,7 +8,6 @@ public class thirdtypeply : MonoBehaviour
     public GameObject[] positions;
     void Start()
     {
-        posIndex = 0;
     }
 
     // Update is called once per frame
@@ -29,6 +28,7 @@ public class thirdtypeply : MonoBehaviour
                 }
             }
         }
+        /*
         switch (posIndex){
             case 0: transform.position = positions[0].transform.position;
                 break;
@@ -36,6 +36,15 @@ public class thirdtypeply : MonoBehaviour
                 break;
             case 2: transform.position = positions[2].transform.position;
                 break;
+        }*/
+        if(posIndex==0){
+            transform.position = positions[0].transform.position;
+        }
+        if(posIndex==1){
+            transform.position = positions[1].transform.position;
+        }
+        if(posIndex==2){
+            transform.position = positions[2].transform.position;
         }
     }
 }
