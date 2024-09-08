@@ -20,13 +20,13 @@ public class ScaleWithMusic : MonoBehaviour
     void LateUpdate()
     {
         //material.color = new Color(material.color.r,material.color.g,material.color.b,(AudioDetect.audioBandBuffer[band]*(_maxIntensity - _minIntensity))+_minIntensity);
-        if(x){
+        if(x && AudioDetect.audioBandBuffer[band] >= 0){
             gameObject.transform.localScale = new Vector3((AudioDetect.audioBandBuffer[band]*(_maxIntensity - _minIntensity))+_minIntensity,gameObject.transform.localScale.y,gameObject.transform.localScale.z);
         }
-        if(y){
+        if(y && AudioDetect.audioBandBuffer[band] >=0){
             gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x,(AudioDetect.audioBandBuffer[band]*(_maxIntensity - _minIntensity))+_minIntensity,gameObject.transform.localScale.z);
         }
-        if(z){
+        if(z && AudioDetect.audioBandBuffer[band] >=0){
             gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x,gameObject.transform.localScale.y,(AudioDetect.audioBandBuffer[band]*(_maxIntensity - _minIntensity))+_minIntensity);
         }
     }

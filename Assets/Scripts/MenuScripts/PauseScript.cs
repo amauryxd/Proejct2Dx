@@ -7,7 +7,7 @@ public class PauseScript : MonoBehaviour
 {
     public void ExitP()
     {
-        SceneManager.LoadScene("LevelSelecto");
+        SceneManager.LoadScene("Menu");
     }
 
     public void RestartP()
