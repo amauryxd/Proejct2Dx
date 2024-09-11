@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class levelselectxd : MonoBehaviour
 {
     public void lvl1(){
-        SceneManager.LoadScene("forwardtolvl1");
+        SceneManager.LoadScene("Level1");
     }
     public void lvl2(){
         SceneManager.LoadScene("Level2");

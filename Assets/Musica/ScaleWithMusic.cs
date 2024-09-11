@@ -20,7 +20,7 @@ public class ScaleWithMusic : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(inicio){
         //material.color = new Color(material.color.r,material.color.g,material.color.b,(AudioDetect.audioBandBuffer[band]*(_maxIntensity - _minIntensity))+_minIntensity);
@@ -40,7 +40,7 @@ public class ScaleWithMusic : MonoBehaviour
     }
 
     public IEnumerator offSet(){
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         inicio = true;
     }
 }

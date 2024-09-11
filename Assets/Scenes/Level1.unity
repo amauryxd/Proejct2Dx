@@ -298,9 +298,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &31179793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,6 +732,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &93863177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,8 +1439,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   x: 0
-  y: 0.2
-  z: 0.03
+  y: 102
+  z: 10
 --- !u!1 &181187345
 GameObject:
   m_ObjectHideFlags: 0
@@ -2307,6 +2309,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &247029882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2482,9 +2485,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &247029888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2703,6 +2707,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &259042302
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,6 +2886,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &259042308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3249,8 +3255,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   x: 0
-  y: 0.2
-  z: 0.05
+  y: 102
+  z: 15
 --- !u!1 &280122697
 GameObject:
   m_ObjectHideFlags: 0
@@ -3441,6 +3447,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &285640967
 GameObject:
   m_ObjectHideFlags: 0
@@ -3647,6 +3654,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &287037443
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,6 +3845,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &302333551
 GameObject:
   m_ObjectHideFlags: 0
@@ -4012,9 +4021,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &302333557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4217,6 +4227,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &354172792
 GameObject:
   m_ObjectHideFlags: 0
@@ -4594,6 +4605,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &381870833
 GameObject:
   m_ObjectHideFlags: 0
@@ -5207,6 +5219,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &494881131
 GameObject:
   m_ObjectHideFlags: 0
@@ -6034,9 +6047,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &549035852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6255,6 +6269,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &582544754
 GameObject:
   m_ObjectHideFlags: 0
@@ -7258,6 +7273,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &616680710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7739,6 +7755,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &647995519
 GameObject:
   m_ObjectHideFlags: 0
@@ -7929,6 +7946,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &649500862
 GameObject:
   m_ObjectHideFlags: 0
@@ -8119,6 +8137,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &684763441
 GameObject:
   m_ObjectHideFlags: 3
@@ -8671,8 +8690,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   x: 0
-  y: 0.2
-  z: 0.05
+  y: 102
+  z: 15
 --- !u!1 &783560896
 GameObject:
   m_ObjectHideFlags: 0
@@ -8863,6 +8882,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &792617029
 GameObject:
   m_ObjectHideFlags: 0
@@ -9053,6 +9073,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &794798103
 GameObject:
   m_ObjectHideFlags: 0
@@ -9243,6 +9264,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &813972129
 GameObject:
   m_ObjectHideFlags: 0
@@ -9433,6 +9455,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &819319490
 GameObject:
   m_ObjectHideFlags: 0
@@ -9810,6 +9833,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &896284011
 GameObject:
   m_ObjectHideFlags: 0
@@ -10203,9 +10227,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &901271968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10408,6 +10433,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &966841598
 GameObject:
   m_ObjectHideFlags: 0
@@ -10769,9 +10795,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &983903495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10986,7 +11013,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 975, y: 418}
+  m_AnchoredPosition: {x: 872, y: 418}
   m_SizeDelta: {x: 120.0391, y: 100.798}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1001537225
@@ -11179,6 +11206,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1019973904
 GameObject:
   m_ObjectHideFlags: 0
@@ -11369,6 +11397,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1037098330
 GameObject:
   m_ObjectHideFlags: 0
@@ -11544,9 +11573,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1037098336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11737,6 +11767,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1041634159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11939,6 +11970,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1059319037
 GameObject:
   m_ObjectHideFlags: 0
@@ -12117,6 +12149,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1059319043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12319,6 +12352,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1068486047
 GameObject:
   m_ObjectHideFlags: 0
@@ -12525,6 +12559,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1082106380
 GameObject:
   m_ObjectHideFlags: 0
@@ -12920,6 +12955,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1103280332
 GameObject:
   m_ObjectHideFlags: 0
@@ -12990,10 +13026,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -13839,9 +13875,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1158554830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14231,6 +14268,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1215951839
 GameObject:
   m_ObjectHideFlags: 0
@@ -14437,6 +14475,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1217564128
 GameObject:
   m_ObjectHideFlags: 0
@@ -14627,6 +14666,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1226002507
 GameObject:
   m_ObjectHideFlags: 0
@@ -14833,6 +14873,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1254665218
 GameObject:
   m_ObjectHideFlags: 0
@@ -15194,6 +15235,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1273785678
 GameObject:
   m_ObjectHideFlags: 0
@@ -15570,6 +15612,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1301872614
 GameObject:
   m_ObjectHideFlags: 0
@@ -15748,6 +15791,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1301872620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15950,6 +15994,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1332450372
 GameObject:
   m_ObjectHideFlags: 0
@@ -16459,6 +16504,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1361156352
 GameObject:
   m_ObjectHideFlags: 0
@@ -16637,6 +16683,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1361156358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16827,6 +16874,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1385689035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17017,6 +17065,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1402087199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17219,6 +17268,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1413275983
 GameObject:
   m_ObjectHideFlags: 0
@@ -17493,6 +17543,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1455613019
 GameObject:
   m_ObjectHideFlags: 0
@@ -17812,7 +17863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  z: 0.2
+  z: 102
 --- !u!1 &1461302588
 GameObject:
   m_ObjectHideFlags: 0
@@ -18003,6 +18054,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1467629130
 GameObject:
   m_ObjectHideFlags: 0
@@ -18178,9 +18230,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1467629136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18371,6 +18424,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1483788291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19172,6 +19226,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1585157621
 GameObject:
   m_ObjectHideFlags: 0
@@ -19362,6 +19417,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1593413250
 GameObject:
   m_ObjectHideFlags: 0
@@ -19552,6 +19608,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1601603000
 GameObject:
   m_ObjectHideFlags: 0
@@ -19928,6 +19985,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1612627287
 GameObject:
   m_ObjectHideFlags: 0
@@ -20437,6 +20495,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1638145550
 GameObject:
   m_ObjectHideFlags: 0
@@ -20772,6 +20831,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1661846310
 GameObject:
   m_ObjectHideFlags: 0
@@ -20962,6 +21022,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1662989088
 GameObject:
   m_ObjectHideFlags: 0
@@ -21137,9 +21198,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1662989094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21342,6 +21404,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1672503111
 GameObject:
   m_ObjectHideFlags: 0
@@ -21815,6 +21878,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1708834289
 GameObject:
   m_ObjectHideFlags: 0
@@ -22138,6 +22202,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1717935329
 GameObject:
   m_ObjectHideFlags: 0
@@ -22913,6 +22978,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &1811596099
 GameObject:
   m_ObjectHideFlags: 0
@@ -23088,9 +23154,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1811596105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28108,9 +28175,10 @@ MonoBehaviour:
   band: 2
   _minIntensity: 1
   _maxIntensity: 3
-  x: 1
+  x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1844721887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28859,6 +28927,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &1928574324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29912,6 +29981,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &2089133101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30301,6 +30371,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &2134809328
 GameObject:
   m_ObjectHideFlags: 0
@@ -30479,6 +30550,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!114 &2134809334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30681,6 +30753,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1 &2145102520
 GameObject:
   m_ObjectHideFlags: 0
@@ -30871,6 +30944,7 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+  inicio: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
