@@ -13,8 +13,8 @@ public class CuboRotate : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        gameObject.transform.Rotate(new Vector3(x,y,z)*Time.deltaTime);
+        gameObject.transform.Rotate(new Vector3(x,y,z));
     }
 }

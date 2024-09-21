@@ -7,7 +7,7 @@ public class percentAdvance : MonoBehaviour
 {
     public GameObject levelxd;
     public TextMeshProUGUI cajatext;
-    int porciento;
+    public static int porciento;
     public float LimitLevel;
     // Start is called before the first frame update
     void Start()

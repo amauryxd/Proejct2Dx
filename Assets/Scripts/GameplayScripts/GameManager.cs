@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection.Emit;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -31,6 +32,7 @@ public class GameManager : MonoBehaviour
     public static void death()
     {
         GameObject ply;
+        writeJsonLevel();
         ply = GameObject.FindGameObjectWithTag("Player");
         Destroy(ply);
         playerLive = false;
@@ -65,6 +67,18 @@ public class GameManager : MonoBehaviour
         if (!playerLive)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
+    public static int cualescena(){
+        int id = SceneManager.GetActiveScene().buildIndex;
+        return id-2;
+    }
+
+    public static void writeJsonLevel(){
+        if(percentAdvance.porciento <= LevelManager.Instance.levelstatus(cualescena()).percentage){
+        }else{
+        LevelManager.Instance.writeLevelStatus(cualescena(),false,percentAdvance.porciento);
         }
     }
 }

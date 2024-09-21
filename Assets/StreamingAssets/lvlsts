@@ -1,0 +1,29 @@
+{
+    "Items": [
+        {
+            "id": 0,
+            "passed": false,
+            "percentage": 53
+        },
+        {
+            "id": 1,
+            "passed": false,
+            "percentage": 6
+        },
+        {
+            "id": 2,
+            "passed": true,
+            "percentage": 100
+        },
+        {
+            "id": 0,
+            "passed": false,
+            "percentage": 0
+        },
+        {
+            "id": 0,
+            "passed": false,
+            "percentage": 0
+        }
+    ]
+}
