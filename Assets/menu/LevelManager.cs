@@ -8,7 +8,8 @@ public class LevelManager : MonoBehaviour
     private static LevelManager instance;
 
     LevelStatus[] lvlstats = new LevelStatus[5];
-    string rute = Application.dataPath+"/StreamingAssets/lvlsts";
+    string rute = Application.dataPath+"/StreamingAssets/lvlsts.json";
+    string ruteAndroid = Application.persistentDataPath + "/lvlsts.json";
     public static LevelManager Instance{
         get{
             if(instance == null){
@@ -29,28 +30,55 @@ public class LevelManager : MonoBehaviour
         }
         try{
             //buscar datos si existen en dado caso que no significa que es la primera vez que lo habren (creo)
-            string jsonlvl = File.ReadAllText(rute);
+            string jsonlvl = readAndroidOrNot();
         }catch{
             lvlstats[0] = new LevelStatus(0,false,0);
             lvlstats[1] = new LevelStatus(1,false,0);
             lvlstats[2] = new LevelStatus(2,false,0);
             string json = JsonHelper.ToJson(lvlstats, true);
-            File.WriteAllText(rute, json);
+            //File.WriteAllText(rute, json);
+            writeOnAndroid(json);
         }
     }
 
     public LevelStatus levelstatus(int id){
-        string json = File.ReadAllText(rute);
+        string json = readAndroidOrNot();
         LevelStatus[] lvlread = JsonHelper.FromJson<LevelStatus>(json);
         return lvlread[id];
     }
 
     public void writeLevelStatus(int id, bool passed, int percentage){
-        string jsonread = File.ReadAllText(rute);
+        string jsonread = readAndroidOrNot();
         LevelStatus[] lvlstats = JsonHelper.FromJson<LevelStatus>(jsonread);
         lvlstats[id] = new LevelStatus(id,passed,percentage);
         string jsonwrite = JsonHelper.ToJson(lvlstats,true);
-        File.WriteAllText(rute, jsonwrite);
+        //File.WriteAllText(rute, jsonwrite);
+        writeOnAndroid(jsonwrite);
+    }
+
+    public void writeOnAndroid(string jsonwrite)
+    {
+        if(Application.platform == RuntimePlatform.Android)
+        {
+           File.WriteAllText(ruteAndroid, jsonwrite);
+        }
+        else
+        {
+            File.WriteAllText(rute,jsonwrite);
+        }
+    }
+    public string readAndroidOrNot()
+    {
+        string json=null;
+        if(Application.platform == RuntimePlatform.Android)
+        {
+            json = File.ReadAllText(ruteAndroid);
+        }
+        else
+        {
+            json = File.ReadAllText(rute);
+        }
+        return json;
     }
 }
 
