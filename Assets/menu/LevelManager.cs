@@ -60,7 +60,7 @@ public class LevelManager : MonoBehaviour
     {
         if(Application.platform == RuntimePlatform.Android)
         {
-           File.WriteAllText(ruteAndroid, jsonwrite);
+            File.WriteAllText(ruteAndroid, jsonwrite);
         }
         else
         {

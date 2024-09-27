@@ -2,18 +2,18 @@
     "Items": [
         {
             "id": 0,
-            "passed": false,
-            "percentage": 53
+            "passed": true,
+            "percentage": 100
         },
         {
             "id": 1,
-            "passed": false,
-            "percentage": 6
+            "passed": true,
+            "percentage": 100
         },
         {
             "id": 2,
-            "passed": true,
-            "percentage": 100
+            "passed": false,
+            "percentage": 15
         },
         {
             "id": 0,
