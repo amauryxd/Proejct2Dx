@@ -6,10 +6,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     private static LevelManager instance;
-
     LevelStatus[] lvlstats = new LevelStatus[5];
-    string rute = Application.dataPath+"/StreamingAssets/lvlsts.json";
-    string ruteAndroid = Application.persistentDataPath + "/lvlsts.json";
     public static LevelManager Instance{
         get{
             if(instance == null){
@@ -60,10 +57,12 @@ public class LevelManager : MonoBehaviour
     {
         if(Application.platform == RuntimePlatform.Android)
         {
+            string ruteAndroid = Application.persistentDataPath + "/lvlsts.json";
             File.WriteAllText(ruteAndroid, jsonwrite);
         }
         else
         {
+            string rute = Application.dataPath+"/StreamingAssets/lvlsts.json";
             File.WriteAllText(rute,jsonwrite);
         }
     }
@@ -72,10 +71,12 @@ public class LevelManager : MonoBehaviour
         string json=null;
         if(Application.platform == RuntimePlatform.Android)
         {
+            string ruteAndroid = Application.persistentDataPath + "/lvlsts.json";
             json = File.ReadAllText(ruteAndroid);
         }
         else
         {
+            string rute = Application.dataPath+"/StreamingAssets/lvlsts.json";
             json = File.ReadAllText(rute);
         }
         return json;
