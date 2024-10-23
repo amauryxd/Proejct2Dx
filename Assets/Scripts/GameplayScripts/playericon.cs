@@ -23,4 +23,8 @@ public class playericon : MonoBehaviour
     public void cambioIcon(int wich){
         playerStateIcon = wich;
     }
+    private void Awake()
+    {
+        //icons[0] = funcion de chequeo cual esta activado
+    }
 }

@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using Yodo1.MAS;
 using System;
 
 public class pruba : MonoBehaviour
 {
+    public UnityEvent eventoxd = new UnityEvent();
+    public UnityEvent eventono = new UnityEvent();
+    public UnityEvent eventoerror = new UnityEvent();
+
     private int retryAttempt = 0;
 
     void OnEnable(){
@@ -56,6 +61,7 @@ SetupEventCallbacks();
     private void OnRewardedInterstitialAdOpenFailedEvent(Yodo1U3dRewardedInterstitialAd ad, Yodo1U3dAdError adError)
     {
         // Code to be executed when an ad open fails.
+        eventoerror.Invoke();
         LoadRewardedInterstitial();
     }
 
@@ -63,10 +69,13 @@ SetupEventCallbacks();
     {
         // Code to be executed when the ad closed
         // LoadRewardedInterstitial();
+        eventono.Invoke();
     }
 
     private void OnRewardedInterstitialAdEarnedEvent(Yodo1U3dRewardedInterstitialAd ad)
     {
+        //conectar escritura de json
+        eventoxd.Invoke();
         this.enabled = false;
         
     }
