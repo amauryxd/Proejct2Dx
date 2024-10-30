@@ -9,8 +9,8 @@ public class policyYodo : MonoBehaviour
     void Start()
     {
         mostrar();
-        mostrar1(); 
-        mostrar2();
+        mostrar1();
+        StartCoroutine(initializeyodoxd());
     }
 
     // Update is called once per frame
@@ -48,22 +48,9 @@ public class policyYodo : MonoBehaviour
     Yodo1U3dMas.SetAdBuildConfig(config);
     }
 
-    void mostrar2(){
-        int age = Yodo1U3dMas.GetUserAge();
-
-int attStatus = Yodo1U3dMas.GetAttrackingStatus();
-switch(attStatus) {
-    case Yodo1U3dAttrackingStatus.NotDetermined: break;
-    case Yodo1U3dAttrackingStatus.Restricted: break;
-    case Yodo1U3dAttrackingStatus.Denied: break;
-    case Yodo1U3dAttrackingStatus.Authorized: break;
-    case Yodo1U3dAttrackingStatus.SystemLow: break;  // iOS version below 14
-}
-    }
-
-    void pruebaad(){
-        Yodo1U3dBannerAdView bannerAdView = new Yodo1U3dBannerAdView(Yodo1U3dBannerAdSize.Banner, Yodo1U3dBannerAdPosition.BannerBottom | Yodo1U3dBannerAdPosition.BannerHorizontalCenter);
-bannerAdView.LoadAd();
-bannerAdView.Show();
+    public IEnumerator initializeyodoxd()
+    {
+        yield return new WaitForSeconds(1f);
+        this.gameObject.GetComponent<yodomanager>().enabled = true;
     }
 }

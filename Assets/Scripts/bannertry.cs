@@ -53,5 +53,14 @@ public class bannertry : MonoBehaviour
     {
         // Code to be executed when the ad closed
     }
+
+    public void closeBannerxd()
+    {
+        bannerAdView.Hide();
+    }
+    public void showbannerxd()
+    {
+        bannerAdView.Show();
+    }
 }
 

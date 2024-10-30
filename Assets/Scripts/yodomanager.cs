@@ -18,12 +18,14 @@ public class yodomanager : MonoBehaviour
             if (success)
             {
                 Debug.Log("[Yodo1 Mas] The initialization has succeeded");
+                
             }
             else
             {
                 Debug.Log("[Yodo1 Mas] The initialization has failed");
             }
         };
+        this.gameObject.GetComponent<bannertry>().enabled = true;
     }
 
     // Update is called once per frame
